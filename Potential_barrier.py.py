@@ -8,7 +8,7 @@ import numpy as np
 import numpy.linalg as la
 import matplotlib.pyplot as plt
 N=500
-q=1 #تعداد سدها
+q=1 #number of barriers
 xmin=0
 xmax=9.4486 #bohr
 L=q*xmax
