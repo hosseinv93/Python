@@ -6,7 +6,7 @@ This repository houses a curated selection of Python scripts that I wrote over 5
 This script contains a Python-based simulation of ball dynamics on a football board. The code models the movement of the ball across the board with considerations for physical factors such as force and impacts with the board boundaries.
 
 ### 2. Argon Gas Crystallization Simulation:
-This script is home to a simulation that models the crystallization process of Argon gas under specific conditions. Using principles from statistical mechanics and thermodynamics, this project aims to demonstrate the phase transition of Argon from a gaseous to a crystalline state.
+The script `MD_argon_crystallization.py` models the crystallization process of Argon gas under specific conditions. Using principles from statistical mechanics and thermodynamics, this project demonstrates the phase transition of Argon from a gaseous to a crystalline state.
 
 ### 3. Quantum Potential Barrier Simulation:
 This script contains a computational tool designed to simulate particle interactions with a potential barrier, a fundamental concept in quantum mechanics. The simulation visualizes how quantum particles, such as electrons, behave when encountering a potential barrier that they classically shouldn't be able to cross.
