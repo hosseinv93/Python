@@ -109,10 +109,8 @@ while t<=40000*dt:
         ayy=np.copy(ay)
     #print(ax[19],x[19],y[19] )
     for i in range(0, N):
-        x[i], vx[i] = verlet(x[i],vx[i],ax[i],axx[i],dt)
+        x[i], vx[i] = verlet(x[i], vx[i], ax[i], axx[i], dt)
         y[i], vy[i] = verlet(y[i], vy[i], ay[i], ayy[i], dt)
-        ayy=np.copy(ay)
-        axx=np.copy(ax)
         if x[i] > L:
             x[i] = x[i] - L
         elif x[i] < 0:
@@ -121,6 +119,8 @@ while t<=40000*dt:
             y[i] = y[i] - L
         elif y[i] <0:
             y[i] = y[i] + L
+    axx = np.copy(ax)
+    ayy = np.copy(ay)
     #vcx=0
     #vcy=0
     
