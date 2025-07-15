@@ -37,14 +37,14 @@ x2list=[0]
 y2list=[0]
 def gradf(x,y):
     if x>=a*r:
-        gradiant=(2*(x-a*r),2*y)
+        gradient=(2*(x-a*r),2*y)
     elif -a*r<x<a*r and f(x)>=0:
-        gradiant=(0,1)
+        gradient=(0,1)
     elif -a*r<x<a*r and f(x)<0:
-        gradiant=(0,-1)
+        gradient=(0,-1)
     else:
-        gradiant=(2*(x+a*r),2*y)
-    return gradiant/np.linalg.norm(gradiant)
+        gradient=(2*(x+a*r),2*y)
+    return gradient/np.linalg.norm(gradient)
 
 def vout(vx,vy,x,y):
     vi=np.array([vx,vy])
